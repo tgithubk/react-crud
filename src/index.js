@@ -3,9 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import List from './list';
+import Register from './register';
 
 ReactDOM.render(
   <React.StrictMode>
+    <List />
+    <Register />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
